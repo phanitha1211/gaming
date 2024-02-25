@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 70px;
+
+}
+.main{
+    /* background-image:url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-2460.jpg?w=900&t=st=1708370555~exp=1708371155~hmac=c1f85c8e97ade8bb863fe8d09525f00fd7170a333112bcbc394ed79856fb4468); */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Px6Pim2MWC7Z_OjTTeBcSRykyz_NiGulzx6UwfYncIZQMcrQTMMgSYB4byq1m9pYaDo&usqp=CAU);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: block;
+    text-align: center;
+
+} 
+.para{
+    font-size: large;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 100px; */
+    row-gap: 35px;
+}
+.flex-wrap1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.wrapper{
+    border-radius: 20%;
+    row-gap: 50px;
+    float: left;
+    height: 500px;
+    width: 500px;
+    /* width:100%; */
+    margin: 50px auto;
+    position: relative;
+    perspective: 1000px;
+    margin-top: 30px;
+
+}
+.box-img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px white;
+
+}
+.wrapper .box-img{
+    transform:rotateY(0deg);
+    transition: all 0.5s ease-in-out;
+}
+.wrapper:hover .box-img{
+    transform: rotateY(-90deg);
+   
+
+}
+.text{
+    position: absolute;
+    border-radius: 20%;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height:100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+.text{
+    transform: rotateY(90deg);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 10px white;
+}
+.wrapper:hover .text{
+    transform: rotateY(0deg);
+}
+.btn{
+    background-color: purple;
+    row-gap: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: purple;
+}
+
+.wrapper1{
+    border-radius: 20%;
+    row-gap: 50px;
+    float: left;
+    height: 500px;
+    width: 70vw;
+    margin: 50px auto;
+    position: relative;
+    perspective: 1000px;
+    margin-top: 30px;
+    margin-left: 60px
+
+}
+.box-img1 img{
+    width: 70vw;
+    height: 500px;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px white;
+    margin-left: 100px;
+
+}
+.wrapper1 .box-img1{
+    transform:rotateX(0deg);
+    transition: all 0.5s ease-in-out;
+}
+.wrapper1:hover .box-img1{
+    transform: rotateX(-90deg);
+   
+
+}
+.text1{
+    position: absolute;
+    border-radius: 20%;
+    /* font-size: large; */
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height:100%;
+    text-align: center;
+    padding: 30px 0px;
+    margin-left: 60px;
+}
+.text1{
+    transform: rotateX(90deg);
+    transition: all 0.5s ease-in-out;
+}
+.wrapper1:hover .text1{
+    transform: rotateX(0deg);
+}
+.btn{
+    background-color: purple;
+    row-gap: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: purple;
+}
+.part2{
+    text-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.mainbox{
+    display:grid;
+    grid-template-columns: repeat(3,300px);
+    grid-auto-rows: 300px;
+    gap: 100px;
+    margin-left: 250px;
+}
+.smallbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius:20px;
+    box-shadow: 13px 13px 26px #cab2b2;
+    margin-left: 10px;
+    
+}
+.gaming{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.part3{
+    background-image: url(https://i.ibb.co/T0cDBQ7/Green-and-White-Gaming-You-Tube-Banner.png);
+    background-size:cover;
+    text-align: center;
+    background-position: center;
+    display: flex;
+    margin-top: 100px;
+
+}
+.imging{
+    background-color: purple;
+
+}
+.last{
+    background-color: rgba(29, 236, 29, 0.6);
+    display: grid;
+    width: 1200px;
+    /* padding-top: 30px; */
+    
+}
+.gaming1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+.smallbox1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    height: 300px;
+    width: 300px;
+    /* border-radius:20px; */
+    /* box-shadow: 13px 13px 26px #cab2b2; */
+    /* margin-left: 10px; */
+    
+}
+.about{
+    text-align: start;
+    font-size: 30px;
+    /* margin-left: 250px; */
+}
+.footer1{
+    text-align: center;
+    /* border: 1px solid red; */
+    padding-top: 40px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+.lsearch{
+    height: 30px;
+    width: 500px;
+    border: 1px solid rgb(146, 144, 142);
+    border-radius: 5px;
+    font-size: larger;
+    margin-top: 50px;
+    margin-left: 500px;
+    padding-bottom: 30px;
+}
+.icons{
+    color: purple;
+    font-size: 30px;
+    height: 70px;
+    width: 500px;
+    justify-content: center;
+    align-items: center; 
+    border-bottom: 1px solid black;
+    margin-left: 500px;
+    padding-top: 30px;
+}
+.search-bar{
+    height: 20px; 
+    width: 250px;
+    margin-top: 5px;
+    outline: none;
+    border: none; 
+    margin-left: 60px;
+}
